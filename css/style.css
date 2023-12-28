@@ -1,0 +1,134 @@
+/* -------- Global -------- */
+
+body {
+   background-color: #e8e8e8;
+   font-size: 20px;
+   color: #273d46;
+   line-height: 40px;
+   padding: 170px 0 0 0;
+}
+
+[class*="__container"] {
+   max-width: 880px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.wrapper {}
+
+/* -------- Global -------- */
+
+/* -------- Header -------- */
+
+.header {
+   text-align: center;
+   margin: 0 0 70px 0;
+}
+
+.header__container {
+   max-width: 725px;
+}
+
+.header__title {
+   opacity: .6;
+   font-family: Arial;
+   font-size: 14px;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+   margin: 0 0 10px 0;
+}
+
+.header__subtitle {
+   font-size: 36px;
+   line-height: 50px;
+
+}
+
+/* -------- Header -------- */
+
+/* -------- Image -------- */
+
+.image {
+   margin: 0 0 90px 0;
+}
+
+.image__container {}
+
+.image__innner {
+   padding: 12px;
+   background: #fff;
+   box-shadow: 0px 15px 65px 0px rgba(15,16,16,0.15);
+}
+
+.image__item {
+   width: 100%;
+   max-width: 100%;
+}
+
+/* -------- Image -------- */
+
+/* -------- Content -------- */
+
+.content {
+   padding: 0 0 130px 0;
+}
+
+.content__container {
+   max-width: 735px;
+}
+
+.content__text {
+   margin: 0 0 60px 0;
+}
+
+.content__text p {
+   opacity: .8;
+   font-size: 24px;
+}
+
+.content__text p:first-child {
+   margin: 0 0 40px 0;
+}
+
+.content__list {
+   font-family: Arial;
+   margin: 0 0 59px 0;
+}
+
+.content__item {
+   line-height: 36px;
+   padding: 0 0 0 36px;
+   background: url('../img/check_icon.png') left 8px no-repeat;
+}
+
+.content__item:nth-child(1) {
+   text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+}
+
+.content__item:nth-child(2) {
+   font-style: italic;
+   color: #80b7b3;
+}
+
+.content__item:nth-child(3) {
+   font-weight: 700;
+}
+
+.content__item:nth-child(4) {
+   opacity: .3;
+   text-decoration: line-through;
+}
+
+.content__btn {
+   font-family: Arial;
+   font-size: 14px;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+   color: #fff;
+   padding: 17px 60px 17px 30px;
+   box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+   border-radius: 25px;
+   background: #80b7b3 url('../img/arrow.png') 155px center no-repeat;
+}
+
+/* -------- Content -------- */
